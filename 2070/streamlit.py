@@ -56,7 +56,7 @@ Note: This bot responds strictly to relevant data related to gastrointestinal sy
 
 def send_message_to_chatbot(openai, user_input):
     # Construct message
-    message = load_messages_from_csv("train.csv",user_input)
+    message = load_messages_from_csv("2070/train.csv",user_input)
 
     # Send message to OpenAI API
     response = openai.chat.completions.create(
