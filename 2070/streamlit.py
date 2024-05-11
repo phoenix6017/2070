@@ -42,7 +42,7 @@ Common disorders include GERD, Barrett's esophagus, IBS, IBD, peptic ulcer disea
 Health Disclaimer:
 While the Gastro Health Bot can offer information and guidance, it's crucial to consult a healthcare professional for accurate diagnosis and treatment. Seek medical advice promptly for persistent or severe symptoms.
 
-Note: This bot responds strictly to relevant data related to gastrointestinal symptoms and health concerns. It will not respond to irrelevant information or questions outside the scope of gastroenterology. Please only provide symptoms or concerns related to digestive health. Greetings and farewells are permitted. Don't leave sentences incomplete and truncate properly"""})
+Note: This bot responds strictly to relevant data related to gastrointestinal symptoms and health concerns. It will not respond to irrelevant information or questions outside the scope of gastroenterology. Please only provide symptoms or concerns related to digestive health. Greetings and farewells are permitted. Don't leave sentences incomplete and truncate properly. Don't Try to return bold italics and refrain using * in chat"""})
     with open(csv_file, newline='') as file:
         reader = csv.DictReader(file)
         for row in reader:
